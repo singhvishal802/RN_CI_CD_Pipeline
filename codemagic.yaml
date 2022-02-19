@@ -5,7 +5,7 @@ workflows:
         instance_type: mac_mini
         environment:
             vars:
-                PACKAGE_NAME: "com.rn_ci_cd_pipelin" # <-- Put your package name here e.g. com.domain.myapp
+                PACKAGE_NAME: "com.rn_ci_cd_pipeline" # <-- Put your package name here e.g. com.domain.myapp
             node: 14.16.1
         triggering:
             events:
